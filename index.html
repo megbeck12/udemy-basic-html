@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="just my practice website">
+    <meta name="keywords" content="html, css, js">
+    <meta name="author" content="Meghan Beck">
+    <meta http-equiv="refresh" content="30">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Best heading <i>ever</i></h1>
+    <h2>This is the <mark>H2</mark></h2>
+    <h6>This is the h6 <del>heading</del></h6>
+    <!--<p>This is paragraph content</p>-->
+    <a href="https://www.google.com/" target="_blank">Link Text</a>
+    <br>
+    <img src="https://www.thespruce.com/thmb/f__OQmu7mYLRbQQFptA2GV0LUyo=/420x0/filters:no_upscale():max_bytes(150000):strip_icc()/Babychick-GettyImages-171143554-5911e8d63df78c92838d4b8c.jpg" alt="Image not found" width="200" height="'200">
+    <table id="users-table">
+        <tr class="table-row">
+            <th id="table_header_name">First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+        </tr>
+        <tr class="table-row">
+            <td>Mark</td>
+            <td>Smith</td>
+            <td>26</td>
+        </tr>
+        <tr class="table-row">
+            <td>Helen</td>
+            <td>Marks</td>
+            <td>32</td>
+        </tr>
+    </table>
+
+    <ul>
+        <li>JavaScript</li>
+        <li>Java</li>
+        <li>PHP</li>
+        <li>Typescript</li>
+    </ul>
+
+    <o data-test-id="list-with-names">
+        <li>JavaScript</li>
+        <li>Java</li>
+        <li>PHP</li>
+        <li>Typescript</li>
+    </ol>
+
+    <form data-test-id="login-form">
+        First Name:
+            <input type="text" placeholder="First Name" name="Your Name">
+            <br>
+        Last Name:
+            <input type="text" placeholder="Last Name" name="Your Last Name">
+            <br>
+        Age:
+            <input type="text" placeholder="Age" name="Age">
+            <br>
+            <input type="submit" value="Submit form">
+    </form>
+
+    <button data-test-id="btn-menu" class="btn-large">Click here</button>
+    <button data-test-id="btn-maps" class="btn-large">Maps</button>
+    <button data-test-id="btn-users" class="btn-large">Users</button>
+
+    <h3>&#169</h3>
+    <h3>&copy</h3>
+
+    <h1>TIME</h1>
+    <button type="button" id="get-date-button" onclick="document.getElementById('date').innerHTML = DATE()">Click Me</button>
+    <p id="date"></p>
+
+</body>
+</html>
